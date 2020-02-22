@@ -16,9 +16,9 @@ function App() {
           <TitleLine text={ 'Train' } start='white' />
         </div>
         <MixerLogo colors={ { 
-          top: 'yellow', 
-          middle: 'red', 
-          bottom: 'green '
+          top: '#fef435', 
+          middle: '#b31708', 
+          bottom: '#503502',
         } } />
         <CatalogueNumber index='7' />
       </Background>

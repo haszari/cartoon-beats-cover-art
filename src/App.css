@@ -16,6 +16,9 @@
   width: 1000px;
   height: 1000px;
   position: relative;
+  background-image: url(./images/yellow-stripes-8.png);
+  background-position-x: -215px;
+  background-size: 133%;
 }
 
 .ep-title {
@@ -67,6 +70,7 @@
   font-family: 'NotoSans-Bold';
   text-transform: uppercase;
   position: absolute;
+  color: white;
   font-size: 40px;
   right: 14px;
   bottom: 10px;
