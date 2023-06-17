@@ -1,11 +1,13 @@
 import React from 'react';
+import classnames from 'classnames';
 
-function Background( { color, children } ) {
+function Background( { color, children, className } ) {
   const styles = {
     backgroundColor: color,
   };
+  const classes = classnames( 'background', className );
   return (
-    <div className='background' style={ styles }>
+    <div className={classes} style={ styles }>
       { children }
     </div>
   );
