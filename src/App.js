@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Background from './components/background';
 import TitleLine from './components/title-line';
@@ -10,17 +10,17 @@ import CatalogueNumber from './components/catalogue-number';
 function App() {
   return (
     <div className="App">
-      <Background color='red'>
+      <Background className='coming-on'>
         <div className='ep-title'>
-          <TitleLine text={ 'Redline' } />
-          <TitleLine text={ 'Train' } start='white' />
+          <TitleLine text={ 'It Was Coming On' } />
+          {/* <TitleLine text={ 'Coming On' } start='white' /> */}
         </div>
-        <MixerLogo colors={ { 
-          top: '#fef435', 
-          middle: '#b31708', 
-          bottom: '#503502',
+        <MixerLogo colors={ {
+          top: '#92f8ff',
+          middle: '#aaf5b4',
+          bottom: '#db02a9',
         } } />
-        <CatalogueNumber index='7' />
+        <CatalogueNumber index='12' />
       </Background>
     </div>
   );
