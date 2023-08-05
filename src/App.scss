@@ -94,6 +94,10 @@ $title-grid-size: 60px;
   background: white;
   color: #272727;
 }
+.title-line .grid-letter.transparent-background {
+  background: transparent;
+  color:transparent;
+}
 
 .mixer-logo svg {
   width: 100px;
@@ -111,6 +115,15 @@ $title-grid-size: 60px;
   font-size: 20px;
   left: 14px;
   bottom: 10px;
+}
+
+.elements {
+  position: relative;
+  top: 1500px;
+  background: gray;
+  height: 400px;
+  width: 1000px;
+  margin: 0;
 }
 
 /* release specific overrides */

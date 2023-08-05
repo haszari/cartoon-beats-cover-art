@@ -2,7 +2,12 @@ import React from 'react';
 
 function EPTitleLetter( { letter, onBlack } ) {
   let classes = 'grid-letter ';
-  classes += onBlack ? 'black-background' : 'white-background';
+  if ( letter === ' ' ) {
+    classes += ' transparent-background';
+  }
+  else {
+    classes += onBlack ? 'black-background' : 'white-background';
+  }
   return ( <span className={ classes }><span className='letter'>{ letter }</span></span> )
 }
 

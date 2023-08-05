@@ -10,7 +10,21 @@ import CatalogueNumber from './components/catalogue-number';
 function App() {
   return (
     <div className="App">
-      <Background className='coming-on'>
+      <>
+        <Background className='coming-on'>
+          <div className='ep-title'>
+            <TitleLine text={ 'It Was Coming On' } />
+            {/* <TitleLine text={ 'Coming On' } start='white' /> */}
+          </div>
+          <MixerLogo colors={ {
+            top: '#92f8ff',
+            middle: '#aaf5b4',
+            bottom: '#db02a9',
+          } } />
+          <CatalogueNumber index='12' />
+        </Background>
+      </>
+      <div className='elements'>
         <div className='ep-title'>
           <TitleLine text={ 'It Was Coming On' } />
           {/* <TitleLine text={ 'Coming On' } start='white' /> */}
@@ -21,7 +35,7 @@ function App() {
           bottom: '#db02a9',
         } } />
         <CatalogueNumber index='12' />
-      </Background>
+      </div>
     </div>
   );
 }
