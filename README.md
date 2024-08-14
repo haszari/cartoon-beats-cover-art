@@ -1,3 +1,5 @@
+deprecated in favour of https://github.com/haszari/cartoon-beats-cover-art
+
 # Cartoon Beats - Cover Art Generator
 
 This is a React app to help me protoype and lay out cover art for [Cartoon Beats Reality](https://cartoonbeats.com/releases/) releases.
